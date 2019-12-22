@@ -2,7 +2,6 @@ package nychaos
 
 import (
 	"fmt"
-	"net/http"
 )
 
 // if arr[i] > i + 2 => fail
@@ -50,7 +49,6 @@ func minimumBribes(q []int32) {
 
 			dif++
 		}
-		http.Get()
 
 		// sufferer  i-v-dif > 0
 		safe := i - v - dif
