@@ -46,7 +46,6 @@ func minimumBribes(q []int32) {
 			dif++
 		}
 		if i-v-dif == 2 {
-
 			dif++
 		}
 
